@@ -1,0 +1,77 @@
+.formContain {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+}
+
+.creditForm{
+    /* background-color: antiquewhite; */
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#div-1, #div-2, #div-3, #div-4, #div-5 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.labelPago, .labelComisión, .labelMonto, .labelTotal, .labelCAT{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.pagoinput, .comisionInput, .mensualInput, .totalInput, .CATInput{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.labelPago, .pagoinput, .labelComisión, .comisionInput, .labelMonto, .mensualInput, .labelTotal, .totalInput, .labelCAT, .CATInput {
+    margin-left: 5%;
+    text-align: center;
+}
+
+#label-1, #label-2, #label-3, #label-4, #label-5{
+    color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.firstInput, .secondInput, .thirdInput, .fourthInput, .fifthInput{
+    border: 2px solid dimgray;
+    border-radius: 20px;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    font-family: cursive;
+}
+    
+.buttonContain {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+.btnSolicitar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: 2px solid dimgray;
+    color: white;
+    width: 55%;
+    height: 85%;
+}   
