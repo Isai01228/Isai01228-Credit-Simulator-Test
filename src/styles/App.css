@@ -6,8 +6,9 @@
   width: 100vw;
 }
 .creditView {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  border: 2px solid black;
   border-radius: 10px;
-  height: 90%;
+  height: 97%;
   width: 30%;
 }

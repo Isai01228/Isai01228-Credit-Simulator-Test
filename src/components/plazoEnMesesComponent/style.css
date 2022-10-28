@@ -1,0 +1,29 @@
+.plazoContainer{
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+}
+
+.plazoLabelContainer {
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.btnsContainer {
+    /* background-color: cornsilk; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 65%;
+}
+
+.InputAlert {
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 46%;
+}
