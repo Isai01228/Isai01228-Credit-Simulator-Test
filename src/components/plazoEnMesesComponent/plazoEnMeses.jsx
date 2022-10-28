@@ -11,6 +11,7 @@ const PlazoEnMeses = ({register, errors}) => {
                 </h5>
             </div>
             <div className='btnsContainer'>
+                <label className='label1' >12</label>
                 <input
                 id='btnRadio'
                 {...register("plazoEnMeses", {required: true})}
@@ -18,12 +19,14 @@ const PlazoEnMeses = ({register, errors}) => {
                 type="radio"
                 value="12"
                 />
+                <label className='label2' >12</label>
                 <input
                 {...register("plazoEnMeses", {required: true})}
                 aria-invalid={errors.plazoEnMeses ? "true" : "false"}
                 type="radio"
                 value="24"
                 />
+                <label className='label3' >12</label>
                 <input
                 {...register("plazoEnMeses", {required: true})}
                 aria-invalid={errors.plazoEnMeses ? "true" : "false"}

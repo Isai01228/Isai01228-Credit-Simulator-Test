@@ -27,3 +27,31 @@
     position: absolute;
     top: 46%;
 }
+
+.label1 {
+    background-color: blueviolet;
+    position: absolute;
+    left: 41.2%;
+    top: 47%;
+}
+
+.label2 {
+    background-color: blueviolet;
+    position: absolute;
+    left: 49.1%;
+    top: 47%;
+}
+
+.label3 {
+    background-color: blueviolet;
+    position: absolute;
+    left: 57.1%;
+    top: 47%;
+}
+
+.label1, .label2, .label3 {
+    height: 4%;
+    width: 2%;
+    text-align: center;
+    border-radius: 50%;
+} 
